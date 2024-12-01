@@ -1,14 +1,13 @@
 <!DOCTYPE html>
- 
+
 <html>
- 
+
 <head>
 	<link rel="stylesheet" href="styles.css">
 </head>
- 
+
 <body>
-	<form>
-		<label for="name">Name</label>
+	<!-- <label for="name">Name</label>
 	<input id="name" type="text" placeholder="Name"><br>
 	<label for="phone">Phone Number</label>
 	<input id="phone" type="text" placeholder="Phone Number"><br>
@@ -23,12 +22,25 @@
 		<option>Elsisian</option>
 	</select><br>
 	<input id="submit" type="submit" value="Submit">
+	</form> -->
+	<form>
+		<input type="text" id="name" placeholder="Name">
+		<input type="text" id="phone" placeholder="Phone Number">
+		<input type="text" id="address" placeholder="Address">
+		<label for="checkbox">Have you ever lived with a Dog before?</label>
+		<input type="checkbox" id="checkbox" value="Have you ever lived with a Dog before?">
+		<select id="multiSelect" type="select" multiple>
+			<option>Asian group</option>
+			<option>Middle Eastern group</option>
+			<option>Northern group</option>
+		</select>
+		<input type="submit" id="submit" value="Submit" >
+		
 	</form>
- 
-		<!-- the entire body must be written by student -->
+	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
- 
+
 </body>
- 
+
 </html>
